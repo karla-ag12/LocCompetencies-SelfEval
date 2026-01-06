@@ -214,23 +214,6 @@ Have an idea? Create an issue describing:
 4. **Reference issues** in your PR description if applicable
 5. **Be patient** - we'll review as soon as possible!
 
-## Code of Conduct
-
-### Our Pledge
-We are committed to providing a welcoming and inclusive environment for all contributors, regardless of experience level, background, or identity.
-
-### Expected Behavior
-- Be respectful and constructive
-- Welcome newcomers and students
-- Accept feedback gracefully
-- Focus on what's best for the project
-
-### Unacceptable Behavior
-- Harassment or discrimination
-- Trolling or insulting comments
-- Publishing others' private information
-- Other unprofessional conduct
-
 ## Questions?
 
 - Check existing issues and pull requests first
