@@ -1,0 +1,121 @@
+{
+    "dimensions": {
+        "language": "Language, Culture & Communication",
+        "research": "Research & Critical Thinking",
+        "market": "Market Awareness",
+        "subject": "Subject Matter Expertise",
+        "gilt": "GILT",
+        "technology": "Technology",
+        "management": "Management"
+    },
+    
+    "chart": {
+        "score": "Competency Score"
+    },
+    
+    "results": {
+        "noStrengths": "You're building your foundation across all dimensions. Focus on developing the ability to work independently in areas that align with your career goals.",
+        "noImprovements": "Excellent! All dimensions score 4 or above. You have strong competencies across the board. Develop your expertise in the areas of your choosing."
+    },
+    
+    "careerPaths": {
+        "project_coordinator": "Project Coordinator",
+        "translation_apprentice": "Translation Apprentice",
+        "qa_tester": "Quality Assurance Tester",
+        "data_annotator": "Data Annotator / LLM Trainer",
+        "market_analyist": "Market Analyst",
+        "translator": "Translator, Interpreter, Terminologist, Language Lead",
+        "vendor_manager": "Vendor Manager",
+        "project_manager": "Localization Project Manager",
+        "loc_eng": "Localization Engineer",
+        "quality_manager": "Localization Quality Manager",
+        "solutions_arch": "Solutions Architect",
+        "localization_trainer": "Localization Trainer",
+        "program_manager": "Program Manager",
+        "tech_dev": "Technology Developer",
+        "none": "Continue developing your skills to match specific career paths. This list is not exhaustive—if you'd like to see additional roles added, please contact us at info@locessentials.com"
+    },
+    
+    "recommendations": {
+        "gilt": "Gain experience in practical translation and localization projects. Study internationalization best practices and globalization strategy.",
+        "management": "Get translation and localization project management training. Practice managing small translation projects or teams.",
+        "technology": "Familiarize yourself with specific technologies like Lilt, Subtitle Edit and LLMs. Learn about machine translation post-editing and study programming languages like Python.",
+        "language": "Improve your proficiency in your working languages. Develop your intercultural competency so that you can contribute to work that is culturally sensitive.",
+        "subject": "Focus on a specific industry (creative, technical, legal) and develop expertise in a niche area in that domain. Learn about legal requirements and how data security impacts international communication.",
+        "research": "Grow in this area by reading research studies in areas of interest and by doing your own linguistic, cultural, or technological research. Find a place to publish about your work.",
+        "market": "Develop a deep understanding of your source and target markets in the specializations in which you work. Follow a diverse range of industry experts. Learn about localization industry standards (ISO 17100, ASTM F2575)."
+    },
+    
+    "alerts": {
+        "incomplete": "Please complete all ratings before calculating your results.",
+        "email": "In a real implementation, this would send your results to your email. For now, please use the Print option."
+    },
+    
+    "errors": {
+        "languageUnavailable": "Language selection is currently unavailable. Please try refreshing the page.",
+        "languageNotSupported": "This language is not supported.",
+        "selectNotFound": "Language selection is currently unavailable. Please try refreshing the page.",
+        "changingToEnglish": "Changing language to English",
+        "changingToSpanish": "Changing language to Spanish",
+        "selectLanguageEnglish": "Select language",
+        "selectLanguageSpanish": "Seleccionar idioma"
+    },
+    
+    "ui": {
+        "evalTitle": "Self-Evaluation",
+        "evalDesc": "Rate your competency level in each area on a scale of 1-5, where:",
+        "scaleLabels": {
+            "1": "Novice (No experience or basic awareness)",
+            "2": "Beginner (Limited experience, require guidance)",
+            "3": "Intermediate (Working knowledge, some independence)",
+            "4": "Advanced (Comprehensive knowledge, work independently)",
+            "5": "Expert (Deep expertise, can teach others)"
+        },
+        "calculateBtn": "Calculate Results",
+        "resultsTitle": "Your Localization Competency Results",
+        "resultsIntro": "Here's an overview of your strengths and areas for development across the seven LMCC dimensions:",
+        "dimensionScoresTitle": "Dimension Scores",
+        "strengthsTitle": "Your Strengths (Score ≥ 4)",
+        "weaknessesTitle": "Areas for Development (Score < 4)",
+        "careerPathsTitle": "Suggested Career Paths",
+        "careerPathsIntro": "Based on your current competencies, these career paths might be a good fit:",
+        "careerPathsDisclaimer": "Note: This list is not exhaustive. If you'd like to see additional roles added, please contact us at info@locessentials.com",
+        "nextStepsTitle": "Recommended Next Steps",
+        "nextStepsIntro": "To further develop your localization management skills:",
+        "printResults": "Print Results",
+        "emailResults": "Email Results",
+        "resetEvaluation": "Start Over"
+    },
+    
+    "competencyLabels": {
+        "multilingual": "Multilingual Skills",
+        "cultural": "Cultural Awareness",
+        "communication": "Communication Skills",
+        "analytical": "Analytical Skills",
+        "research-skills": "Research Skills",
+        "evaluation-skills": "Evaluation & Feedback",
+        "source-market": "Source Market Awareness",
+        "target-market": "Target Market Awareness",
+        "marketplace": "Marketplace Awareness",
+        "industry-knowledge": "Industry Knowledge",
+        "specialization": "Subject Matter Specialization",
+        "legal": "Legal Knowledge",
+        "data-security": "Data Security",
+        "translation": "Translation",
+        "localization": "Localization",
+        "internationalization": "Internationalization",
+        "globalization": "Globalization",
+        "general-tech": "General Tech Skills",
+        "cat-tools": "CAT Tools",
+        "mt": "Machine Translation",
+        "web-dev": "Web Development",
+        "dtp": "DTP & Multimedia",
+        "software": "Software Development",
+        "gai": "Generative AI",
+        "stakeholder": "Stakeholder Management",
+        "account": "Account Management",
+        "project": "Project Management",
+        "quality": "Quality Management",
+        "operations": "Production/Operations"
+    }
+}

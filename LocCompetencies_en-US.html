@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localization Management Core Competencies</title>
+    <meta name="description" content="Assess your strengths and improvement areas across the Localization Management Core Competencies (LMCC) typology with this self-evaluation tool." />
+    <link rel="alternate" hreflang="en-US" href="LocCompetencies_en-US.html" />
+    <link rel="alternate" hreflang="es-MX" href="LocCompetencies_es-MX.html" />
+    <script src="resource-loader.js"></script>
+    <link rel="stylesheet" href="locessential-styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="language-picker">
+                <span>Language:</span>
+                <select id="language-select">
+                    <option value="en-US">English</option>
+                    <option value="es-MX">Español</option>
+                </select>
+                <div id="language-error" style="display: none;" role="alert"></div>
+            </div>
+            <h1 id="main-title">Localization Management Core Competencies</h1>
+            <p id="main-subtitle">Self-Evaluation Tool</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="introduction">
+            <h2 id="intro-title">Introduction to LMCC</h2>
+            <p id="intro-text-1">The <a target="_blank" href="https://l10ncompetencies.wordpress.com">Localization Management Core Competencies (LMCC) typology</a> is a hierarchy of localization knowledge and skills necessary for the professional practice of localization management. The LMCC typology is comprised of seven dimensions, each with related competencies and skills.</p>
+            <p id="intro-text-2">This self-evaluation tool will help you assess your strengths and areas for improvement across these dimensions, providing insight into your localization management competencies.</p>
+            
+            <div class="dimensions-overview">
+                <h3 id="dimensions-title">The Seven Dimensions</h3>
+                <ul>
+                    <li id="dim-language"><strong>Language, Culture, & Communication</strong> - Bilingualism, Cultural awareness, Effective communication</li>    
+                    <li id="dim-research"><strong>Research & Critical Thinking</strong> - Analytical skills, Independent learning, Feedback and evaluation</li>
+                    <li id="dim-market"><strong>Market Awareness</strong> - Industry knowledge, Standards, Organizations, Market trends</li>                                    
+                    <li id="dim-subject"><strong>Subject Matter Expertise</strong> - Data security, Legal knowledge, Industry-specific knowledge</li>
+                    <li id="dim-gilt"><strong>GILT</strong> - Globalization, Internationalization, Localization, and Translation</li>
+                    <li id="dim-technology"><strong>Technology</strong> - General tech skills, Communication platforms, PM tools, CAT, DTP, Software/Games/Websites, MT, and more</li>
+                    <li id="dim-management"><strong>Management</strong> - Stakeholder, Account, Project, Quality, Terminology, Production/Operations, and Program</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Empty container for evaluation section - Will be populated from JSON -->
+        <section id="evaluation" class="content-container hidden"></section>
+
+        <!-- Empty container for results section - Will be populated from JSON -->
+        <section id="results" class="content-container hidden"></section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p id="footer-text">Localization Management Core Competencies (LMCC) - Self-Evaluation Tool</p>
+            <p id="footer-copyright">© 2026 LocEssentials</p>
+        </div>
+    </footer>
+</body>
+</html>
