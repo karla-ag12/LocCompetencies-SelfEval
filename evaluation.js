@@ -825,18 +825,27 @@ function setupEventHandlers(strings) {
         try {
             // If no matching paths, show generic message
             if (matchingPaths.length === 0) {
-                const noPathsItem = document.createElement('li');
-                noPathsItem.textContent = getNestedProperty(strings, 'careerPaths.none') || 
-                    'Continue developing your skills in weaker areas to match specific career paths.';
-                careerPathsList.appendChild(noPathsItem);
+            const noPathsItem = document.createElement('li');
+    
+            // DETECTAR SI ES LA PÁGINA EN ESPAÑOL
+            const currentPath = window.location.pathname;
+            const isSpanishPage = currentPath.toLowerCase().includes('_es-mx');
+    
+            // ELEGIR EL TEXTO SEGÚN EL IDIOMA
+            if (isSpanishPage) {
+            // Si es español, usar texto en español
+            const spanishText = getNestedProperty(strings, 'careerPaths.none') || 
+            'Sigue fortaleciendo tus habilidades para alinearlas con trayectorias profesionales concretas.';
+            noPathsItem.textContent = spanishText;
             } else {
-                // Add matching paths to list
-                for (const pathName of matchingPaths) {
-                    const pathItem = document.createElement('li');
-                    pathItem.textContent = pathName;
-                    careerPathsList.appendChild(pathItem);
-                }
+             // Si es inglés, usar texto en inglés
+            const englishText = getNestedProperty(strings, 'careerPaths.none') || 
+            'Continue developing your skills in weaker areas to match specific career paths.';
+            noPathsItem.textContent = englishText;
             }
+    
+    careerPathsList.appendChild(noPathsItem);
+}
         } catch (error) {
             console.error("Error displaying career paths:", error);
         }
